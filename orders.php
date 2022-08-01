@@ -52,7 +52,7 @@ require './users/commands.php';
             <input type="text" name="street_no" placeholder="Enter Your Street Code" required=""><br>
 
             <input type="submit" name="submit" value="SEND">
-            <p><?php echo "Thanks for making ur order"; ?>  </p>
+            <!-- <p><?php echo "Thanks for making ur order"; ?>  </p> -->
     </form>
   </div>
 </div>

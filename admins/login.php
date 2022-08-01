@@ -21,7 +21,7 @@ if(isset($_POST['submit'])){
     }
 
     else{
-       echo "<p style = 'color:red'>Invalid inputs</p>";
+    //    echo "<p style = 'color:red'>Invalid inputs</p>";
     }
 
 }

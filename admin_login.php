@@ -17,9 +17,8 @@ include './admins/login.php';
 
 	    <h1>Vanessa Cafe</h1>
 		<ul>
-			<li><a href="user_login.php" class="menu">menu</a></li>
 			<li><a href="user_login.php">onder now</a></li>
-			<li><a href="user_login.php">Admin</a></li>
+			<li><a href="admin_login.php">Admin</a></li>
 		</ul>
 
 	</div>
@@ -30,6 +29,7 @@ include './admins/login.php';
 	<input type="text" name="names" placeholder="Enter Your Username" required=""><br>
     <input type="password" name="passwordd" placeholder="Enter Your Password" required=""><br>
 	<input type="submit" name="submit" value="LOGIN">
+	<p class="error"><?php echo "Invalid inputs"; ?> </p>
     
     <p>Sign-up if don't you have accound <a href="admin_signup.php">Sign-up</a></p>
  </form>

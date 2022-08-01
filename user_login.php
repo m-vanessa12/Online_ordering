@@ -19,9 +19,8 @@ include './users/check_users.php';
 	<h1>Vanessa Cafe</h1>
 
 	<ul>
-		<li><a href="user_login.php" class="menu" >menu</a></li>
 		<li><a href="user_login.php">onder now</a></li>
-		<li><a href="user_login.php">Admin</a></li>
+		<li><a href="admin_login.php">Admin</a></li>
 	</ul>
 
 	</div>

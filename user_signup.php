@@ -21,9 +21,8 @@ include './users/add_user.php';
 		<input type="checkbox" id="check">
 		<label for="check" class="checkbtn"><i class=" fa fa-bars"></i></label>
 		<ul>
-			<li><a href="user_login.php" class="menu">menu</a></li>
 			<li><a href="user_login.php">onder now</a></li>
-			<li><a href="user_login.php">Admin</a></li>
+			<li><a href="admin_signup.php">Admin</a></li>
 		</ul>
 
 	</div>

@@ -13,7 +13,7 @@ body{
 
 .gradient_overlay{
     width: 100%;
-    height: 88.2vh;
+    height: 100vh;
     background: linear-gradient(48deg, rgba(36, 38, 39, 0.5), rgba(36, 38, 39, 0.5));
 }
 
@@ -130,6 +130,13 @@ body{
 .form form a{
     color: yellow;
     text-transform: uppercase;
+}
+
+.error p{
+    font-size: 20px;
+    text-align: center;
+    padding: 1rem;
+    color: red;
 }
 
 
