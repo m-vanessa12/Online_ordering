@@ -33,6 +33,8 @@ if(mysqli_num_rows($query) > 0){
             <th>Quantity</th>
             <th>Food</th>
             <th>Quantity</th>
+            <th>Phone No</th>
+            <th>Address</th>
             <th>Time</th>
         </tr>
         
@@ -46,6 +48,8 @@ if(mysqli_num_rows($query) > 0){
             <td><?php echo $rows['drink_quantity'];?></td>
             <td><?php echo $rows['food'];?></td>
             <td><?php echo $rows['food_quantity'];?></td>
+            <td><?php echo $rows['phone'];?></td>
+            <td><?php echo $rows['street_no'];?></td>
             <td><?php echo $rows['Time'];?></td>
         </tr>
 

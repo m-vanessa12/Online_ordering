@@ -77,15 +77,15 @@ body{
 .table{
     background: #fff;
     margin-top: 7%;
-    margin-left: 25%;
-    width: 40%;
+    margin-left: 10%;
+    width: 70%;
     padding: 3rem;
     border: none;
 }
 
 .table table{
-    width: 90%;
-    margin-left: 1.5rem;
+    width: 95%;
+    margin-left: 1.2rem;
     border-radius: 10px;
     border-collapse: none;
     border: none;
